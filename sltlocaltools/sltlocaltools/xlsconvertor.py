@@ -9,7 +9,7 @@ import os
 import sys
 import xlwt
 import xlrd
-from xlutils.copy import copy
+from optparse import OptionParser
 
 
 reload(sys)
@@ -217,14 +217,24 @@ class Convertor:
         parser.writeToStringsFile()
 
 if __name__ == '__main__':
-    # stringsParser = StringsParser()
-    # stringsParser.dirPath = '/Users/liushulong/Downloads'
-    # stringsParser.name = 'test'
-    # stringsParser.execelPath = '/Users/liushulong/Desktop/chinese.xls'
-    # stringsParser.parser()
-    # stringsParser.writeToExecel()
+    parser = OptionParser(usage="%prog [-f]", version="%prog 1.0")
+    parser.add_option("-t", "--type", action="store", dest="type",
+                      help="1 means convert to xls,2 means convert to strings")
+    parser.add_option("-s", "--strdir", action="store", dest="strPath",
+                      help="strings'dir path")
+    parser.add_option("-x", "--xlspath", action="store", dest="xlspath",
+                      help="xls file path")
+    (options, args) = parser.parse_args()
 
-    converTor = Convertor()
-    converTor.xlsPath = '/Users/liushulong/Desktop/chinese.xls'
-    converTor.stringsDir = '/Users/liushulong/Desktop/test'
-    converTor.convertXlsTostrings()
+    type = options.type
+    strPath = os.path.realpath(options.strPath)
+    xlsPath = os.path.realpath(options.xlspath)
+    convertor = Convertor()
+    convertor.stringsDir = strPath
+    convertor.xlsPath = xlsPath
+    if type == '1': # convert to xls
+        convertor.convertStringsToXls()
+    elif type == '2':
+        convertor.convertXlsTostrings()
+    print 'Done!'
+
