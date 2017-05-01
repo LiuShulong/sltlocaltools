@@ -1,0 +1,10 @@
+/**
+* 这是注释
+*/
+
+/**
+* 注释1
+*/
+"MJRefreshHeaderIdleText" = "Pull down to refresh";
+
+"MJRefreshHeaderPullingText" = "Release to refresh";

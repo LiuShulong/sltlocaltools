@@ -6,6 +6,7 @@ import os
 import unittest
 
 parent_path = os.path.dirname(sys.path[0])
+print "path:" + parent_path
 if parent_path not in sys.path:
     sys.path.append(parent_path)
 
@@ -14,7 +15,7 @@ from sltlocaltools import zh_searcher
 class SearcherTestCase(unittest.TestCase):
     def test_searchcontent(self):
         searcher = zh_searcher.Searcher()
-        filePath = os.path.join(parent_path,'test/fixtures/ViewController.m')
+        filePath = os.path.join(parent_path,'test/fixtures/find/ViewController.m')
         searcher.filePath = filePath
         res = searcher.searchContent(filePath)
         res.sort()
@@ -30,7 +31,7 @@ class SearcherTestCase(unittest.TestCase):
         res = searcher.searchFiles()
         res.sort()
         self.assertIsNotNone(res)
-        tmpArr = ['fixtures/test.mm','fixtures/ViewController.m','fixtures/ViewController.h']
+        tmpArr = ['fixtures/find/test.mm','fixtures/find/ViewController.m','fixtures/find/ViewController.h']
         expect = []
         for item in tmpArr:
             tmpPath = os.path.join(filePath,item)
@@ -40,7 +41,7 @@ class SearcherTestCase(unittest.TestCase):
 
     def test_exectute(self):
         searcher = zh_searcher.Searcher()
-        filePath = os.path.join(parent_path, 'test/fixtures')
+        filePath = os.path.join(parent_path, 'test/fixtures/find')
         searcher.filePath = filePath
         res = searcher.execute()
         model1 = zh_searcher.DataModel('ViewController.h',['我是接口d'])
