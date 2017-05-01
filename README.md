@@ -6,7 +6,9 @@ sltlocaltools
 
 ![xlsToStrings](http://img.blog.csdn.net/20170501134717317?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvdGFpc2hhbmR1YmE=/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast)
 
-sltlocaltools is a tool to help search iOS localizabel.strings and convert it between xls and strings.
+![这里写图片描述](http://img.blog.csdn.net/20170501155958580?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvdGFpc2hhbmR1YmE=/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast)
+
+sltlocaltools is a ios tool to help search Chinese and convert them between xls and strings.
 
 Installing
 ---
@@ -15,6 +17,11 @@ Installing
 
 Usage
 ---
+
+extract Chinese from .h or .m files:
+
+`python zh_searcher.py -f /Users/xx/Documents/SLRepo/sltlocaltools/test/fixtures/find -o ~/Desktop/myzh.txt`
+
 
 Convert strings to xls
 

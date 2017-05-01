@@ -5,7 +5,11 @@
 
 import os
 import re
+import codecs
 from optparse import OptionParser
+import sys
+reload(sys)
+sys.setdefaultencoding('utf8')
 
 class DataModel:
     def __init__(self):
@@ -32,9 +36,12 @@ class DataModel:
 class Searcher:
     def __init__(self):
         self.filePath = ''
+        self.outPath = ''
+        self.content = ''
 
     def execute(self):
         res = []
+        content = ''
         if os.path.isfile(self.filePath):
             tmpArr = self.searchContent(self.filePath)
             fileName = os.path.split(self.filePath)[1]
@@ -51,6 +58,8 @@ class Searcher:
                 fileName = os.path.split(item)[1]
                 dataModel = DataModel(fileName, tmpArr)
                 res.append(dataModel)
+                content += str(dataModel)
+        self.content = content
         return res;
 
     def searchFiles(self):
@@ -79,17 +88,30 @@ class Searcher:
         res = list(tmpSet)
         return res
 
+    def saveToFile(self):
+        f = codecs.open(self.outPath, 'w', 'utf-8')
+        print self.content
+        f.write(self.content)
+        f.close()
+
 if __name__ == '__main__':
     parser =  OptionParser(usage="%prog [-f]", version="%prog 1.0")
     parser.add_option("-f", "--file",action="store", dest="filePath",
                       help="search Chinese in this file or folder")
+
+    parser.add_option("-o", "--out",action="store", dest="outPath",
+                      help="save result to outPath")
     (options, args) = parser.parse_args()
     # get file path
     filePath = options.filePath
-    if filePath == None:
+    outPath = options.outPath
+    if filePath == None or outPath == None:
         parser.print_help()
         exit()
 
     searcher = Searcher()
-    searcher.filePath = filePath
+    searcher.filePath = os.path.realpath(filePath)
+    searcher.outPath = os.path.realpath(outPath)
     searcher.execute()
+    searcher.saveToFile()
+    print 'Done!'
