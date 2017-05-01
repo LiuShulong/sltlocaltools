@@ -22,6 +22,13 @@ extract Chinese from .h or .m files:
 
 `python zh_searcher.py -f /Users/xx/Documents/SLRepo/sltlocaltools/test/fixtures/find -o ~/Desktop/myzh.txt`
 
+```
+searcher = zh_searcher.Searcher()
+filePath = os.path.join(parent_path, 'test/fixtures/find')
+searcher.filePath = filePath
+res = searcher.execute()
+```
+
 
 Convert strings to xls
 
