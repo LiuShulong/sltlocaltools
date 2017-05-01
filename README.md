@@ -16,11 +16,11 @@ Installing
 Usage
 ---
 
-convert strings to xls
+Convert strings to xls
 
 `python xlsconvertor.py -t 1 -sd ~/Desktop/test -x ~/Desktop/my.xls`
 
-convert xls to strings
+Convert xls to strings
 
 `python xlsconvertor.py -t 1 -sd ~/Desktop/test -x ~/Desktop/my.xls`
 
@@ -49,7 +49,7 @@ convert xls to strings
 
 Test
 ---
-run test to see examples.
+Run test to see examples.
 
 `python setup.py test`
 
