@@ -2,25 +2,27 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5aef68b5-28c7-45db-85c7-edd294460e5c" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sltlocaltools/__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sltlocaltools/xlsconvertor.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sltlocaltools/zh_searcher.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/fixtures/demo/res.xls" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/fixtures/find/View.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/fixtures/find/ViewController.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/fixtures/find/ViewController.m" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/fixtures/find/strings/en.lproj/Localizable.strings" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/fixtures/find/strings/zh-Hans.lproj/Localizable.strings" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/fixtures/find/test.mm" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/fixtures/strings/en.lproj/Localizable.strings" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/fixtures/strings/zh-Hans.lproj/Localizable.strings" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/fixtures/test/en.lproj/Localizable.strings" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/fixtures/test/zh-Hans.lproj/Localizable.strings" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/fixtures/xls/res.xls" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/test_xlsconvertor.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/test_zh_searcher.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sltlocaltools/sltlocaltools/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sltlocaltools/sltlocaltools/xlsconvertor.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sltlocaltools/sltlocaltools/zh_searcher.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sltlocaltools/test/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sltlocaltools/test/fixtures/demo/res.xls" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sltlocaltools/test/fixtures/find/View.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sltlocaltools/test/fixtures/find/ViewController.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sltlocaltools/test/fixtures/find/ViewController.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sltlocaltools/test/fixtures/find/strings/en.lproj/Localizable.strings" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sltlocaltools/test/fixtures/find/strings/zh-Hans.lproj/Localizable.strings" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sltlocaltools/test/fixtures/find/test.mm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sltlocaltools/test/fixtures/strings/en.lproj/Localizable.strings" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sltlocaltools/test/fixtures/strings/zh-Hans.lproj/Localizable.strings" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sltlocaltools/test/fixtures/test/en.lproj/Localizable.strings" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sltlocaltools/test/fixtures/test/zh-Hans.lproj/Localizable.strings" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sltlocaltools/test/fixtures/xls/res.xls" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sltlocaltools/test/test_xlsconvertor.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sltlocaltools/test/test_zh_searcher.py" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.txt" afterPath="$PROJECT_DIR$/README.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/setup.py" afterPath="$PROJECT_DIR$/setup.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -64,8 +66,8 @@
       <file leaf-file-name="setup.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/setup.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="16" lean-forward="false" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
+            <state relative-caret-position="150">
+              <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="13" selection-end-column="21" />
               <folding>
                 <element signature="e#0#13#0" expanded="true" />
               </folding>
@@ -73,34 +75,34 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="test_zh_searcher.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sltlocaltools/test/test_zh_searcher.py">
+      <file leaf-file-name="__init__.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/sltlocaltools/__init__.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-77">
-              <caret line="19" column="14" lean-forward="true" selection-start-line="19" selection-start-column="14" selection-end-line="19" selection-end-column="14" />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="zh_searcher.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sltlocaltools/sltlocaltools/zh_searcher.py">
+        <entry file="file://$PROJECT_DIR$/sltlocaltools/zh_searcher.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="33" />
-              <folding />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="1" selection-end-column="22" />
+              <folding>
+                <element signature="e#73#82#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="xlsconvertor.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/sltlocaltools/sltlocaltools/xlsconvertor.py">
+      <file leaf-file-name="xlsconvertor.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sltlocaltools/xlsconvertor.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="133">
-              <caret line="223" column="44" lean-forward="false" selection-start-line="223" selection-start-column="28" selection-end-line="223" selection-end-column="44" />
-              <folding>
-                <element signature="e#94#107#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="150">
+              <caret line="10" column="11" lean-forward="false" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="11" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -145,8 +147,9 @@
         <option value="$PROJECT_DIR$/sltlocaltools/xlsconvertor.py" />
         <option value="$PROJECT_DIR$/test/test_xlsconvertor.py" />
         <option value="$PROJECT_DIR$/sltlocaltools/setup.py" />
-        <option value="$PROJECT_DIR$/setup.py" />
         <option value="$PROJECT_DIR$/sltlocaltools/sltlocaltools/xlsconvertor.py" />
+        <option value="$PROJECT_DIR$/setup.py" />
+        <option value="$PROJECT_DIR$/sltlocaltools/test/__init__.py" />
       </list>
     </option>
   </component>
@@ -193,28 +196,6 @@
             <PATH_ELEMENT>
               <option name="myItemId" value="sltlocaltools" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sltlocaltools" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sltlocaltools" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sltlocaltools" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sltlocaltools" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="sltlocaltools" />
@@ -617,14 +598,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sltlocaltools/zh_searcher.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="1" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test/fixtures/strings/en.lproj/Localizable.strings">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
@@ -657,26 +630,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sltlocaltools/xlsconvertor.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="149">
-          <caret line="225" column="0" lean-forward="false" selection-start-line="225" selection-start-column="0" selection-end-line="229" selection-end-column="35" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test/fixtures/test/en.lproj/Localizable.strings">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/test_xlsconvertor.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="142">
-          <caret line="148" column="24" lean-forward="true" selection-start-line="148" selection-start-column="24" selection-end-line="148" selection-end-column="24" />
           <folding />
         </state>
       </provider>
@@ -697,20 +654,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/setup.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="16" lean-forward="false" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
-          <folding>
-            <element signature="e#0#13#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/sltlocaltools/test/test_zh_searcher.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-77">
-          <caret line="19" column="14" lean-forward="true" selection-start-line="19" selection-start-column="14" selection-end-line="19" selection-end-column="14" />
+          <caret line="19" column="14" lean-forward="false" selection-start-line="19" selection-start-column="14" selection-end-line="19" selection-end-column="14" />
           <folding />
         </state>
       </provider>
@@ -725,11 +672,61 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/sltlocaltools/sltlocaltools/xlsconvertor.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="223" column="44" lean-forward="false" selection-start-line="223" selection-start-column="28" selection-end-line="223" selection-end-column="44" />
+        <state relative-caret-position="1134">
+          <caret line="233" column="12" lean-forward="true" selection-start-line="233" selection-start-column="12" selection-end-line="233" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/test_xlsconvertor.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="628">
+          <caret line="101" column="26" lean-forward="true" selection-start-line="101" selection-start-column="26" selection-end-line="101" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sltlocaltools/xlsconvertor.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="11" lean-forward="false" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sltlocaltools/zh_searcher.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="1" selection-end-column="22" />
           <folding>
-            <element signature="e#94#107#0" expanded="true" />
+            <element signature="e#73#82#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/setup.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="13" selection-end-column="21" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sltlocaltools/test/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sltlocaltools/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>

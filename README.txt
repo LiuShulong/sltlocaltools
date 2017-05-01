@@ -27,3 +27,32 @@ convert xls to strings
 -	-t : 1 means convert to xls,2 means convert to strings
 -  -s : localizable strings dir path
 -  -x : xls file path
+
+```
+  converTor = xlsconvertor.Convertor()
+  converTor.xlsPath = os.path.join(parent_path,'test/fixtures/xls/res.xls')
+  converTor.stringsDir = testPath
+  
+  # convert to strings
+  converTor.convertXlsTostrings()
+```
+
+```
+  converTor = xlsconvertor.Convertor()
+  converTor.xlsPath = os.path.join(parent_path,'test/fixtures/xls/res.xls')
+  converTor.stringsDir = testPath
+  
+  # convert to xls
+  convertor.convertStringsToXls()
+```
+
+
+Test
+---
+run test to see examples.
+
+`python setup.py test`
+
+License
+---
+sltlocaltools is yours to use and abuse according to the terms of the MIT license. Check the LICENSE file for full details.

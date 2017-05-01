@@ -1,11 +1,17 @@
 import codecs
 import os
 import sys
+import unittest
 
 try:
     from setuptools import setup
 except:
     from distutils.core import setup
+
+def my_test_suite():
+    test_loader = unittest.TestLoader()
+    test_suite = test_loader.discover('test', pattern='test_*.py')
+    return test_suite
 
 def read(fname):
     return codecs.open(os.path.join(os.path.dirname(__file__), fname)).read()
@@ -30,7 +36,7 @@ AUTHOR_EMAIL = "slliutyler@gmail.com"
 
 URL = "https://github.com/LiuShulong/sltlocaltools"
 
-VERSION = "1.0.1"
+VERSION = "1.0.2"
 
 LICENSE = "MIT"
 
@@ -54,4 +60,9 @@ setup(
     packages=PACKAGES,
     include_package_data=True,
     zip_safe=True,
+    install_requires=[
+        'xlrd',
+        'xlwt'
+    ],
+    test_suite='setup.my_test_suite'
 )
